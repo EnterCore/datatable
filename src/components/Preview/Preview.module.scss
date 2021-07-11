@@ -1,0 +1,49 @@
+.Preview{
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  
+
+}
+.videoPlayer{
+  max-width: 450px;
+  border: 1px solid rgb(41, 41, 41) ;
+  border-radius: 5px;
+}
+
+video{
+  width: 95%;
+  align-items: center;
+  padding: 10px;
+}
+
+.userCard{
+  width: 100%;
+  padding: 15px;
+  line-height: 30px;
+  border: 1px solid rgb(41, 41, 41) ;
+  border-radius: 5px;
+}
+
+.userInfo{
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+ 
+}
+
+.userImg{
+  width: 45px;
+  height: 45px;
+  border: 1px solid rgba(34, 34, 34, 0.425);
+  border-radius: 50%;
+  padding:2px;
+  margin-right: 10px;
+}
+
+.cardBody{
+  display: inline-block;
+  word-wrap: break-word;
+}
